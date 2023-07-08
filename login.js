@@ -24,7 +24,7 @@ function saveLocalToDos(event) {
   else {
     to = JSON.parse(localStorage.getItem(t));
     if (to === passwordInput.value) {
-      confirm('User Name Found \nPlease wait a few minutes to enter the portal');
+      confirm('User Name Found \nClick on Search to continue');
     }
     else
     {
