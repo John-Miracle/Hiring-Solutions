@@ -1,0 +1,165 @@
+
+body {
+  margin: none;
+  font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/014/302/734/non_2x/luxury-abstract-banner-template-with-gold-blended-waves-on-black-background-with-copy-space-for-text-shiny-dynamic-light-stripes-futuristic-twisted-lines-design-in-dark-background-wallpaper-website-vector.jpg");
+  background-color: #cccccc;  
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin-top:130px;
+  padding: 30px 30px;
+  max-width: 500px;
+  margin: auto auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: black;
+  border-radius: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 90%;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.login-button {
+  border-radius: 30px;
+  display: flex;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+}
+
+.signup-button {
+  border-radius: 30px;
+  display: flex;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+}
+
+.signup-button:hover{
+  background-color: yellow;
+  color: black;
+}
+.login-button:hover{
+  background-color: yellow;
+  color: black;
+}
+.search-button:hover{
+  background-color: yellow;
+  color: black;
+}
+
+.search-button {
+  border-radius: 30px;
+  display: flex;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+}
+
+.topnav {
+  background-color: rgba(54, 50, 4, 0.655);
+  overflow: hidden;
+  margin: none;
+}
+
+
+.tn_left a{
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.tn_right a{
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.tn_right i{
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 16px 16px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.tn_left a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.tn_left a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+.tn_right a:hover {
+  background-color: #04AA6D;
+  color: black;
+}
+.tn_right i:hover {
+  background-color: #04AA6D;
+  color: black;
+}
+
+#login-img{
+  padding: none;
+  margin: none;
+}
+
+.signup{
+  display: flex;
+  margin: 18px;
+  justify-content: center;
+}
